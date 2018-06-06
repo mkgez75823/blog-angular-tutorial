@@ -1,3 +1,4 @@
+HEAD
 # BlogAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+# blog-angular-tutorial
+Dépot du tutorial Angular 'blog'
+2cf309ebb72ed14d7b2c3089ad2e12bcec99e27b
