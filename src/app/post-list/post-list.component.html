@@ -1,1 +1,13 @@
-<app-post-list-item *ngFor="let post of arrayposts" [postTitre]="post.titre" [postContenu]="post.contenu" [postLoveIts]="post.loveIts" [postDate]="post.created_at"></app-post-list-item>
+<div class="row">
+    <div class="col-xs-12">
+ 
+    <h2>Posts</h2>
+    <ul class="list-group" *ngIf="!isEmpty">
+		<app-post-list-item *ngFor="let post of arrayposts; let i=index" [postTitre]="post.titre" [postContenu]="post.contenu" [postLoveIts]="post.loveIts" [postDate]="post.created_at" [index]="i"></app-post-list-item>
+    </ul>
+    <ul class="list-group" *ngIf="isEmpty">Aucun post actuellement!&nbsp;&nbsp;&nbsp;&nbsp;<a (click)="goPost()" style="cursor:pointer;" title="Créer un post">Poster</a></ul>
+   
+    </div>
+</div>
+
+
